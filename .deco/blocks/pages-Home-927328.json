@@ -2,12 +2,38 @@
   "name": "Home",
   "path": "/",
   "sections": [
-    { "__resolveType": "Header" },
-    { "__resolveType": "site/sections/Social.tsx" },
-    { "__resolveType": "site/sections/Links.tsx" },
-    { "__resolveType": "site/sections/Image.tsx" },
-    { "__resolveType": "site/sections/Links.tsx" },
-    { "__resolveType": "Footer" }
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "title": "<p>Guilherme Boia</p>",
+      "description": "<p style=\"text-align: center\">- undergrad computer science student -</p>",
+      "logo": {
+        "img": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/guilhermeboia/d25db8c7-4481-464a-ba03-6f7e0ca031a9/guilherme-boia-isotipo-104x104.png"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Social.tsx",
+      "social": [
+        {
+          "label": "Instagram",
+          "href": "instagra.com/guilhermeboia"
+        },
+        {
+          "label": "Linkedin",
+          "href": "https://www.linkedin.com/in/guilhermeboia/"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Links.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Image.tsx",
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/guilhermeboia/574333bf-c762-4e3e-b845-1224e9b74afb/deco.cx.png",
+      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/guilhermeboia/27d340da-7ce0-40a7-b054-736f7d9e6a1c/deco.cx.png"
+    },
+    {
+      "__resolveType": "Footer"
+    }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }
